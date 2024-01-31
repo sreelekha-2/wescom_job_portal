@@ -180,19 +180,18 @@
     font-weight: 500;
 }
 
-.container-fluid{
-    padding: auto;
+h1,h2,p{
+    margin-bottom: 0 !important;
 }
 
 
 .login-form-container {
-    padding: 30px 50px;
+    padding: 70px 0px;
     width: 100%;
 }
 
 .logo-container {
-    margin-bottom: 28px;
-    line-height: 40px;
+    margin-bottom: 48px;
 }
 
 .job-seeker-logo {
@@ -220,7 +219,7 @@
 }
 
 .form-container {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .input-box {
@@ -237,10 +236,17 @@
     font-size: 14px;
 }
 
+.form-field{
+    margin-bottom: 27px;
+}
+
+.password-field{
+    margin-bottom: 40px;
+}
+
 .password-box {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
-
 }
 
 .eye-icon {
@@ -250,6 +256,10 @@
     background-color: #F5F7FB !important;
 }
 
+.forgot-password-link-container {
+    margin-bottom: 40px;
+}
+
 .forgot-password-link {
     font-size: 14px;
     font-style: normal;
@@ -257,6 +267,10 @@
 
 .form-text-link{
     color: #3756F3;
+}
+
+.login-btn-container{
+    margin-bottom: 346px;
 }
 
 .login-btn {
@@ -277,10 +291,13 @@
 
 .landing-img-container {
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .landing-img{
     width: 100%;
+    height: 100%;
     border-radius: 35px 0px 0px 35px;
 }
 
