@@ -1,0 +1,294 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("../../fonts/product_sans/product_sans/ProductSans-Regular.eot");
+  src: url("../../fonts/product_sans/ProductSans-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/product_sans/ProductSans-Regular.woff2") format("woff2"), url("../../fonts/product_sans/ProductSans-Regular.woff") format("woff"), url("../../fonts/product_sans/ProductSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../../fonts/product_sans/ProductSans-Bold.eot");
+  src: url("../../fonts/product_sans/ProductSans-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/product_sans/ProductSans-Bold.woff2") format("woff2"), url("../../fonts/product_sans/ProductSans-Bold.woff") format("woff"), url("../../fonts/product_sans/ProductSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../../fonts/product_sans/ProductSans-BoldItalic.eot");
+  src: url("../../fonts/product_sans/ProductSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/product_sans/ProductSans-BoldItalic.woff2") format("woff2"), url("../../fonts/product_sans/ProductSans-BoldItalic.woff") format("woff"), url("../../fonts/product_sans/ProductSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Product Sans";
+  src: url("../../fonts/product_sans/ProductSans-Italic.eot");
+  src: url("../../fonts/product_sans/ProductSans-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/product_sans/ProductSans-Italic.woff2") format("woff2"), url("../../fonts/product_sans/ProductSans-Italic.woff") format("woff"), url("../../fonts/product_sans/ProductSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans 9pt";
+  src: url("../../fonts/dm_sans/DMSans-9ptRegular.eot");
+  src: url("../../fonts/dm_sans/DMSans-9ptRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-9ptRegular.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-9ptRegular.woff") format("woff"), url("../../fonts/dm_sans/DMSans-9ptRegular.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-9ptRegular.svg#DMSans-9ptRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-Italic.eot");
+  src: url("../../fonts/dm_sans/DMSans-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-Italic.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-Italic.woff") format("woff"), url("../../fonts/dm_sans/DMSans-Italic.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-Italic.svg#DMSans-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-Bold.eot");
+  src: url("../../fonts/dm_sans/DMSans-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-Bold.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-Bold.woff") format("woff"), url("../../fonts/dm_sans/DMSans-Bold.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-Bold.svg#DMSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-BoldItalic.eot");
+  src: url("../../fonts/dm_sans/DMSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-BoldItalic.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-BoldItalic.woff") format("woff"), url("../../fonts/dm_sans/DMSans-BoldItalic.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-BoldItalic.svg#DMSans-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans 9pt";
+  src: url("../../fonts/dm_sans/DMSans-9ptItalic.eot");
+  src: url("../../fonts/dm_sans/DMSans-9ptItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-9ptItalic.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-9ptItalic.woff") format("woff"), url("../../fonts/dm_sans/DMSans-9ptItalic.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-9ptItalic.svg#DMSans-9ptItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-Regular.eot");
+  src: url("../../fonts/dm_sans/DMSans-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-Regular.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-Regular.woff") format("woff"), url("../../fonts/dm_sans/DMSans-Regular.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-Regular.svg#DMSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-Medium.eot");
+  src: url("../../fonts/dm_sans/DMSans-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-Medium.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-Medium.woff") format("woff"), url("../../fonts/dm_sans/DMSans-Medium.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-Medium.svg#DMSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../../fonts/dm_sans/DMSans-MediumItalic.eot");
+  src: url("../../fonts/dm_sans/DMSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/dm_sans/DMSans-MediumItalic.woff2") format("woff2"), url("../../fonts/dm_sans/DMSans-MediumItalic.woff") format("woff"), url("../../fonts/dm_sans/DMSans-MediumItalic.ttf") format("truetype"), url("../../fonts/dm_sans/DMSans-MediumItalic.svg#DMSans-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+.font-size-14 {
+  font-size: "14px";
+}
+
+.font-size-16 {
+  font-size: "16px";
+}
+
+.font-size-18 {
+  font-size: "18px";
+}
+
+.font-size-20 {
+  font-size: "20px";
+}
+
+.font-size-26 {
+  font-size: "26px";
+}
+
+.font-size-32 {
+  font-size: "32px";
+}
+
+.product-sans-bold {
+  font-family: "Product Sans";
+  font-weight: bold;
+}
+
+.dm-sans-bold {
+  font-family: "DM Sans";
+  font-weight: bold;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans";
+  font-weight: normal;
+}
+
+.dm-sans-medium {
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+.job-seeker-heading {
+  font-style: normal;
+  line-height: normal;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.job-seeker-title-heading {
+  font-style: normal;
+}
+
+.job-seeker-title-desc {
+  font-style: normal;
+  margin-top: 9px;
+}
+
+.input-box::-moz-placeholder {
+  font-family: "DM Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: "14px";
+}
+
+.input-box::placeholder {
+  font-family: "DM Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: "14px";
+}
+
+.form-container .form-field + .form-field {
+  margin-top: 17px;
+}
+
+.password-field {
+  margin-bottom: 20px;
+}
+
+.forgot-password-link {
+  font-style: normal;
+}
+
+.form-text-link {
+  color: #3756F3;
+}
+
+.login-btn-container {
+  margin-top: 20px;
+  /* margin-bottom: 346px; */
+}
+
+.link-text-decoration {
+  text-decoration: none !important;
+}
+
+.landing-details-heading {
+  font-style: normal;
+}
+
+.landing-details-desc {
+  font-style: normal;
+}
+
+.login-form-container {
+  height: 100vh !important;
+  padding: 30px 0px 30px 0px;
+  width: 100%;
+}
+.login-form-container__logo-container {
+  margin-bottom: 28px;
+}
+.login-form-container__job-seeker-logo {
+  width: 40px;
+  height: 40px;
+}
+.login-form-container__input-box {
+  border-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 10px 20px !important;
+  /* width:400px !important; */
+}
+.login-form-container__input-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.login-form-container__password-box {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.login-form-container__eye-icon {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+}
+
+.job-seeker-title-desc + .form-container {
+  margin-top: 20px !important;
+  width: 416px;
+}
+
+.landing-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* width: 100vw; */
+}
+.landing-img-container::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 87, 255, 0.7) 0%, rgba(0, 87, 255, 0.7) 100%);
+  border-radius: 35px 0px 0px 35px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.landing-img-container__landing-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container__landing-details-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  /* height: 100%; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px;
+  color: #FFFFFF;
+}
+
+.left-side-container, .right-side-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.submit-btn {
+  background-color: #3756F3 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  font-style: normal;
+  padding: 10px 30px !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  /* margin-top:40px; */
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,111 @@
+.font-size-14 {
+    font-size: $font-size-14;
+}
+
+.font-size-16 {
+    font-size: $font-size-16;
+}
+
+.font-size-18 {
+    font-size: $font-size-18;
+}
+
+.font-size-20 {
+    font-size: $font-size-20;
+}
+
+.font-size-26 {
+    font-size: $font-size-26;
+}
+
+.font-size-32 {
+    font-size: $font-size-32;
+}
+
+
+.product-sans-bold {
+    font-family: $secondary-font-family;
+    font-weight: bold;
+}
+
+.dm-sans-bold {
+    font-family: $primary-font-family;
+    font-weight: bold;
+}
+
+.dm-sans-regular {
+    font-family: $primary-font-family;
+    font-weight: normal;
+}
+
+.dm-sans-medium {
+    font-family: $primary-font-family;
+    font-weight: 500;
+}
+
+.job-seeker-heading {
+    // font-size: $font-size-26;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
+.job-seeker-title-heading {
+    // font-size: $font-size-16;
+    font-style: normal;
+}
+
+.job-seeker-title-desc {
+    // font-size: 16px;
+    font-style: normal;
+    margin-top: 9px;
+}
+
+.input-box::placeholder {
+    font-family: "DM Sans";
+    font-weight: normal;
+    font-style: normal;
+    font-size: $font-size-14;
+}
+
+.form-container .form-field+.form-field {
+    margin-top: 17px;
+}
+
+.password-field {
+    margin-bottom: 20px;
+}
+
+.forgot-password-link {
+    // font-size: 14px;
+    font-style: normal;
+}
+
+.form-text-link {
+    color: $primary-color;
+}
+
+.login-btn-container {
+    margin-top: 20px;
+    /* margin-bottom: 346px; */
+}
+
+// .form-footer-text {
+//     font-size: 18px
+// }
+
+.link-text-decoration {
+    text-decoration: none !important;
+}
+
+.landing-details-heading {
+    // font-size: 32px;
+    font-style: normal;
+}
+
+.landing-details-desc {
+    // font-size: 20px;
+    font-style: normal;
+}
