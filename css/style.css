@@ -99,27 +99,27 @@
   font-display: swap;
 }
 .font-size-14 {
-  font-size: "14px";
+  font-size: 14px;
 }
 
 .font-size-16 {
-  font-size: "16px";
+  font-size: 16px;
 }
 
 .font-size-18 {
-  font-size: "18px";
+  font-size: 18px;
 }
 
 .font-size-20 {
-  font-size: "20px";
+  font-size: 20px;
 }
 
 .font-size-26 {
-  font-size: "26px";
+  font-size: 26px;
 }
 
 .font-size-32 {
-  font-size: "32px";
+  font-size: 32px;
 }
 
 .product-sans-bold {
@@ -162,14 +162,14 @@
   font-family: "DM Sans";
   font-weight: normal;
   font-style: normal;
-  font-size: "14px";
+  font-size: 14px;
 }
 
 .input-box::placeholder {
   font-family: "DM Sans";
   font-weight: normal;
   font-style: normal;
-  font-size: "14px";
+  font-size: 14px;
 }
 
 .form-container .form-field + .form-field {
