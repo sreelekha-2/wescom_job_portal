@@ -1,0 +1,86 @@
+.register-container {
+    @include main-container;
+}
+
+.register-form-container {
+    @include form-wrapper;
+
+    &__logo-container {
+        margin-bottom: 48px;
+
+    }
+
+    &__job-seeker-logo {
+      @include job-seeker-module-logo
+    }
+
+    &__input-box {
+       @include input-box-wrapper
+    }
+
+    &__password-box {
+       @include password-box-wrapper
+    }
+
+    &__eye-icon {
+      @include eye-icon-wrapper
+    }
+}
+
+.job-seeker-title-desc+.form-container {
+    margin-top: 40px !important;
+    width: 416px;
+}
+
+.landing-img-container {
+    @include landing-image-wrapper;
+}
+
+
+
+.country-img {
+    width: 30px;
+    height: 30px;
+}
+
+.number-box {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    /* border-left:1px solid #e1e8f0 !important; */
+}
+
+.country-code {
+    background-color: #F5F7FB !important;
+    border: 0 !important;
+    font-size: 14px;
+}
+
+/* .mobile-number-line {
+    width: 1px;
+    height: 24px !important;
+    background-color: #e1e8f0 !important;
+    transform: rotate(-270deg);
+} */
+
+.mobile-number-line-container {
+    background-color: #F5F7FB;
+}
+
+.mobile-number-line {
+    width: 24px;
+    height: 1px;
+    transform: rotate(-270deg);
+    color: #e1e8f0;
+}
+
+.register-btn-container {
+    margin-top: 20px !important;
+    margin-bottom: 61px;
+}
+
+
+/* forgot password */
+
+.reset-btn-container {
+    margin: 20px 0px;
+}

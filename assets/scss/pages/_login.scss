@@ -1,0 +1,37 @@
+.login-container {
+    @include main-container;
+}
+
+.login-form-container {
+    @include form-wrapper;
+
+    &__logo-container {
+        margin-bottom: 48px;
+
+    }
+
+    &__job-seeker-logo {
+      @include job-seeker-module-logo
+    }
+
+    &__input-box {
+       @include input-box-wrapper
+    }
+
+    &__password-box {
+       @include password-box-wrapper
+    }
+
+    &__eye-icon {
+      @include eye-icon-wrapper
+    }
+}
+
+.job-seeker-title-desc+.form-container {
+    margin-top: 40px !important;
+    width: 416px;
+}
+
+.landing-img-container {
+    @include landing-image-wrapper;
+}

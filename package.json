@@ -1,0 +1,16 @@
+{
+  "name": "wescome_job_portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass -w assets/scss/style.scss assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "sass": "^1.70.0"
+  }
+}
