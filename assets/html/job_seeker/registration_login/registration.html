@@ -6,82 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
     <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" /> -->
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row register-container">
             <div class="col-6 p-0">
-                <div class="register-form-container d-flex flex-column align-items-center justify-content-between">
+                <div class="register-form-container">
                     <div>
                         <div class="d-flex align-items-center register-form-container__logo-container">
                             <img src="../../../images/job-seeker-logo.jpg" alt="Job Seeker Logo"
-                                class="register-form-container__job-seeker-logo" />
-                            <h1 class="job-seeker-heading product-sans-bold">Job Seeker</h1>
+                                class="job-seeker-logo" />
+                            <h1 class="job-seeker-heading register-form-job-seeker-heading">Job Seeker</h1>
                         </div>
 
-                        <h2 class="job-seeker-title-heading dm-sans-bold">Create your Account</h2>
-                        <p class="job-seeker-title-desc dm-sans-regular">Find a job & grow your career !
+                        <h2 class="job-seeker-title-heading">Create your Account</h2>
+                        <p class="job-seeker-title-desc">Find a job & grow your career !
                         </p>
 
-                        <form class="row g-3 form-container">
+                        <form class="row g-5 form-container">
                             <div class="col-6 m-0">
-                                <label for="registrationFname" class="form-label dm-sans-regular font-size-14">First Name</label>
-                                <input type="text" class="form-control register-form-container__input-box" id="registrationFname"
+                                <label for="registrationFname" class="form-label form-label-text">First Name</label>
+                                <input type="text" class="form-control input-box register-form-input-box" id="registrationFname"
                                     placeholder="Enter your first name">
                             </div>
                             <div class="col-6 m-0 form-field">
-                                <label for="registrationLname" class="form-label dm-sans-regular font-size-14">Last Name</label>
-                                <input type="text" class="form-control register-form-container__input-box" id="registrationLname"
+                                <label for="registrationLname" class="form-label form-label-text">Last Name</label>
+                                <input type="text" class="form-control input-box  register-form-input-box" id="registrationLname"
                                     placeholder="Enter your last name">
                             </div>
-                            <!-- <div class="col-12 form-field">
-                                <label for="phone" class="form-label dm-sans-regular font-size-14">Mobile Number</label>
-                                 <input id="phone" class="form-control" type="text">
 
-                            </div> -->
+                            <div class="col-12 form-field ">
+                                <label for="mobileNumber" class="form-label form-label-text">Mobile
+                                    Number</label>
+                                <div class="input-group mobile-number-container">
+                                    <select class="input-group-text js-example-basic-single country-list-dropdown"
+                                        name="state">
+                                        <!-- <option value="AL">Alabama</option>
+                                        ...
+                                        <option value="WY">Wyoming</option> -->
+                                    </select>
+                                    <span class="input-group-text country-code">+251</span>
+                                    <input type="number" class="form-control number-box" id="mobileNumber"
+                                        placeholder="Number" required>
+                                </div>
+                            </div>
 
-                            <select class="js-example-basic-single" name="state">
+                            <!-- <select class="js-example-basic-single country-list-dropdown" name="state">
+                                <option value="AL">Alabama</option>
+                                <option value="WY">Wyoming</option>
+                            </select> -->
+
+                            <!-- <select class="js-example-basic-single" name="state">
                                 <option value="AL">Alabama</option>
                                 ...
                                 <option value="WY">Wyoming</option>
-                            </select>
+                            </select> -->
 
                             <div class="col-12 form-field">
-                                <label for="registrationEmail" class="form-label dm-sans-regular font-size-14">Email ID</label>
-                                <input type="email" class="form-control register-form-container__input-box" id="registrationEmail"
+                                <label for="registrationEmail" class="form-label form-label-text">Email ID</label>
+                                <input type="email" class="form-control input-box  register-form-input-box" id="registrationEmail"
                                     placeholder="Enter your email" aria-describedby="emailHelp" required>
                             </div>
                             <div class="col-12 form-field">
-                                <label for="registrationPassword" class="form-label dm-sans-regular font-size-14">Password</label>
+                                <label for="registrationPassword" class="form-label form-label-text">Password</label>
                                 <div class="input-group">
-                                    <input type="password" class="form-control register-form-container__input-box register-form-container__password-box"
+                                    <input type="password" class="form-control input-box  register-form-input-box password-box"
                                         id="registrationPassword" placeholder="Enter your password" required>
-                                    <span class="input-group-text eye-icon"><i class="fa-solid fa-eye-slash"
-                                            id="togglePassword"></i></span>
+                                    <span class="input-group-text eye-icon"><i class="icon-eye-slash"
+                                            id="toggleRegPassword"></i></span>
                                 </div>
                             </div>
-                            <p class="dm-sans-regular form-field font-size-14">
+                            <p class="form-field register-form-container__terms-conditions-text">
                                 By clicking Register, you agree to the <a href="#"
-                                    class="form-text-link link-text-decoration">
+                                    class="link-text-decoration register-form-container__terms-conditions-link">
                                     Terms and Conditions</a> &
-                                <a href="#" class="form-text-link link-text-decoration">Privacy Policy
+                                <a href="#"
+                                    class="link-text-decoration register-form-container__terms-conditions-link">Privacy
+                                    Policy
                                 </a>
                                 of JobSeekers.com
                             </p>
-                            <div class="col-12 text-end register-btn-container">
-                                <button type="submit" class="btn submit-btn dm-sans-medium">Register</button>
+                            <div class="col-12 text-end register-form-container__register-btn-container">
+                                <button type="submit" class="btn submit-btn">Register</button>
                             </div>
-
-                            <div class="text-center">
-                                <p class="dm-sans-regular form-footer-text">Already have an account ? <a href="#"
-                                        class="form-text-link">Login</a> Here</p>
-                            </div>
-                           
                         </form>
                     </div>
 
+                    <div class="text-center">
+                        <p class="register-form-container__register-form-footer-text">Already have an account ? <a
+                                href="#" class="register-form-container__register-form-footer-link">Login</a> Here</p>
+                    </div>
                 </div>
             </div>
 
@@ -89,8 +108,8 @@
                 <div class="landing-img-container">
                     <!-- <img src="../../../images/job-seeker-landing.jpg" alt="Landing Image" class="landing-img"> -->
                     <div class="landing-img-container__landing-details-container">
-                        <h2 class="dm-sans-bold landing-details-heading">Let’s find you your dream job</h2>
-                        <p class="dm-sans-medium landing-details-desc">Search millions of jobs on JobSeeker, the largest
+                        <h2 class="landing-details-heading">Let’s find you your dream job</h2>
+                        <p class="landing-details-desc">Search millions of jobs on JobSeeker, the largest
                             community of jobs
                             all around the world</p>
                     </div>
@@ -100,23 +119,8 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="../../../js/validations.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/intlTelInput.min.js"></script>
-    <script>
-        const input = document.querySelector("#phone");
-        window.intlTelInput(input, {
-            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.16/build/js/utils.js",
-            initialCountry: "us",
-            showSelectedDialCode: true,
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('.js-example-basic-single').select2();
-        });
-    </script>
+    <script src="../../../js/registration.js"></script>
+   
 </body>
 
 </html>

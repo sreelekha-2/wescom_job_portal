@@ -3,18 +3,23 @@
     height: 40px;
 };
 
-.input-box{
-    border-radius: 10px !important;
-    border: 0 !important;
-    background-color: $secondary-color !important;
-    padding: 15px 0px 15px 18px !important;
-    font-size: $font-size-14;
+// .input-box{
+//     border-radius: 10px !important;
+//     border: 0 !important;
+//     background-color: $secondary-color !important;
+//     padding: 15px 0px 15px 18px !important;
+//     font-size: $font-size-14;
 
-    &:focus {
-        outline: none !important;
-        box-shadow: none !important;
-    }
-};
+//     @media (max-height:899px){
+//         padding: 12px 0px 12px 15px !important;
+//         // font-size: 10px;
+//     }
+
+//     &:focus {
+//         outline: none !important;
+//         box-shadow: none !important;
+//     }
+// };
 
 .eye-icon{
     border-top-right-radius: 10px !important;
@@ -32,7 +37,11 @@
 };
 
 .job-seeker-title-desc+.form-container {
-    margin-top: 40px !important;
+    margin-top: 4rem !important;
+    @media (max-height:899px){
+        margin-top: 3.5rem !important;
+
+    }
     // width: 416px;
 }
 

@@ -1,11 +1,10 @@
-
-
-@mixin main-container{
+@mixin main-container {
     min-height: 100vh;
 }
+
 ;
 
-@mixin form-wrapper{
+@mixin form-wrapper {
     padding: 7rem 0px 3rem 0px;
     width: 428px;
     // width: 100%;
@@ -15,7 +14,13 @@
     // align-items: center;
     margin: 0 auto;
     justify-content: space-between;
-};
+
+    // @media (max-height:900px) {
+    //     padding: 3rem 0 2rem 0;
+    // }
+}
+
+;
 
 @mixin landing-image-wrapper {
     position: relative;
@@ -54,4 +59,6 @@
         padding: 0px 30px;
         color: $primary-white;
     }
-};
+}
+
+;

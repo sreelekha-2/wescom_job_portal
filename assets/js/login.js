@@ -11,10 +11,3 @@ togglePassword.addEventListener('click', function (e) {
     togglePassword.classList.toggle('icon-eye');
 });
 
-
-
-
-
-// $(document).ready(function() {
-//     $('.js-example-basic-single').select2();
-// });

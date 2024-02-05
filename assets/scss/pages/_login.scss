@@ -2,7 +2,6 @@
     @include main-container;
 }
 
-
 .login-form-container {
     @include form-wrapper;
 
@@ -10,6 +9,24 @@
         margin-bottom: 4.8rem;
 
     }
+
+    &__input-box{
+        border-radius: 10px !important;
+        border: 0 !important;
+        background-color: $secondary-color !important;
+        padding: 15px 0px 15px 18px !important;
+        font-size: $font-size-14;
+    
+        &:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        &::placeholder {
+            font-family: $dm-sans-font-regular;
+            font-size: $font-size-14;
+        }
+    };
 
     &__forgot-password-link {
         font-family: $dm-sans-font-medium;

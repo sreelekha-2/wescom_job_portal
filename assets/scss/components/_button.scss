@@ -6,4 +6,8 @@
     color: $secondary-white !important;
     border-radius: 10px !important;
     /* margin-top:40px; */
+
+    @media (max-height:700px) {
+        padding: 8px 25px !important;
+    }
 }

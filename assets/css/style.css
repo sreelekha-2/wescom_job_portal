@@ -11864,7 +11864,7 @@ html {
 }
 @media (max-height: 700px) {
   html {
-    font-size: 45.5%;
+    font-size: 40.5%;
   }
 }
 
@@ -12008,6 +12008,11 @@ p {
   font-size: 26px;
   color: #10172a;
 }
+@media (max-height: 899px) {
+  .job-seeker-title-heading {
+    font-size: 20px;
+  }
+}
 
 .job-seeker-title-desc {
   font-family: "DM Sans Regular";
@@ -12016,6 +12021,17 @@ p {
   margin-top: 0.9rem;
 }
 
+.input-box {
+  border-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 15px 0px 15px 18px !important;
+  font-size: 14px;
+}
+.input-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .input-box::placeholder {
   font-family: "DM Sans Regular";
   font-size: 14px;
@@ -12067,6 +12083,21 @@ p {
 }
 .login-form-container__logo-container {
   margin-bottom: 4.8rem;
+}
+.login-form-container__input-box {
+  border-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 15px 0px 15px 18px !important;
+  font-size: 14px;
+}
+.login-form-container__input-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.login-form-container__input-box::placeholder {
+  font-family: "DM Sans Regular";
+  font-size: 14px;
 }
 .login-form-container__forgot-password-link {
   font-family: "DM Sans Medium";
@@ -12135,8 +12166,68 @@ p {
   margin: 0 auto;
   justify-content: space-between;
 }
+@media (max-height: 899px) {
+  .register-form-container {
+    padding: 3rem 0 2rem 0;
+  }
+}
 .register-form-container__logo-container {
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
+}
+@media (max-height: 899px) {
+  .register-form-container__logo-container {
+    margin-bottom: 2.4rem;
+  }
+}
+.register-form-container__terms-conditions-text {
+  font-family: "DM Sans Regular";
+  font-size: 14px;
+  color: #000000;
+}
+.register-form-container__terms-conditions-link {
+  font-family: "DM Sans Medium";
+  font-size: 14px;
+  color: #3756F3;
+}
+.register-form-container__register-btn-container {
+  margin-top: 4rem;
+}
+@media (max-height: 899px) {
+  .register-form-container__register-btn-container {
+    margin-top: 2rem;
+  }
+}
+.register-form-container__register-form-footer-text {
+  font-family: "DM Sans Regular";
+  font-size: 18px;
+  color: #000000;
+}
+@media (max-height: 899px) {
+  .register-form-container__register-form-footer-text {
+    font-size: 14px;
+  }
+}
+.register-form-container__register-form-footer-link {
+  font-family: "DM Sans Regular";
+  font-size: 18px;
+  color: #3756F3;
+}
+@media (max-height: 899px) {
+  .register-form-container__register-form-footer-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-height: 899px) {
+  .register-form-job-seeker-heading {
+    font-size: 20px;
+  }
+}
+
+@media (max-height: 899px) {
+  .register-form-input-box {
+    padding: 12px 0px 12px 15px !important;
+  }
 }
 
 .landing-img-container {
@@ -12180,37 +12271,113 @@ p {
 }
 
 .number-box {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 15px 0px 15px 18px !important;
+  font-size: 14px;
   /* border-left:1px solid #e1e8f0 !important; */
+}
+@media (max-height: 899px) {
+  .number-box {
+    padding: 12px 0px 12px 15px !important;
+  }
+}
+.number-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.country-list-dropdown {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 15px 0px 15px 18px !important;
+  font-size: 14px;
+  display: inline-block;
+}
+@media (max-height: 899px) {
+  .country-list-dropdown {
+    padding: 12px 10px 12px 15px !important;
+  }
+}
+.country-list-dropdown:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.mobile-number-container {
+  position: relative;
+}
+
+.mobile-number-container::before {
+  position: absolute;
+  content: "";
+  top: 12px;
+  left: 26%;
+  background-color: #e1e8f0 !important;
+  width: 1px;
+  height: 24px;
 }
 
 .country-code {
   background-color: #F5F7FB !important;
   border: 0 !important;
   font-size: 14px;
+  padding-left: 15px;
 }
 
-/* .mobile-number-line {
-    width: 1px;
-    height: 24px !important;
-    background-color: #e1e8f0 !important;
-    transform: rotate(-270deg);
-} */
-.mobile-number-line-container {
-  background-color: #F5F7FB;
+.select2-container {
+  background-color: #F5F7FB !important;
+  padding: 0px !important;
+  width: 25% !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
 }
 
-.mobile-number-line {
-  width: 24px;
-  height: 1px;
-  transform: rotate(-270deg);
-  color: #e1e8f0;
+.select2-container--default .select2-selection--single {
+  background-color: transparent !important;
+  border: 0 !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
 }
 
-.register-btn-container {
-  margin-top: 20px !important;
-  margin-bottom: 61px;
+.select2-selection {
+  height: 100% !important;
+  padding: 15px 0 15px 18px !important;
+}
+@media (max-height: 899px) {
+  .select2-selection {
+    padding: 12px 10px 12px 15px !important;
+  }
+}
+
+.select2-results__option {
+  font-size: 14px;
+  color: #000000;
+}
+
+.select2-selection__rendered {
+  font-size: 14px;
+  line-height: normal !important;
+  color: #000000;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 24% !important;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  font-size: 14px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field:focus-visible {
+  outline: none;
 }
 
 .forgot-password-container {
@@ -12418,22 +12585,15 @@ p {
   border-radius: 10px !important;
   /* margin-top:40px; */
 }
+@media (max-height: 700px) {
+  .submit-btn {
+    padding: 8px 25px !important;
+  }
+}
 
 .job-seeker-logo {
   width: 40px;
   height: 40px;
-}
-
-.input-box {
-  border-radius: 10px !important;
-  border: 0 !important;
-  background-color: #F5F7FB !important;
-  padding: 15px 0px 15px 18px !important;
-  font-size: 14px;
-}
-.input-box:focus {
-  outline: none !important;
-  box-shadow: none !important;
 }
 
 .eye-icon {
@@ -12451,7 +12611,12 @@ p {
 }
 
 .job-seeker-title-desc + .form-container {
-  margin-top: 40px !important;
+  margin-top: 4rem !important;
+}
+@media (max-height: 899px) {
+  .job-seeker-title-desc + .form-container {
+    margin-top: 3.5rem !important;
+  }
 }
 
 @font-face {
