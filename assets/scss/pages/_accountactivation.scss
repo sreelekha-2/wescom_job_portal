@@ -1,0 +1,22 @@
+.account-activation-container {
+    @include main-container;
+}
+
+.account-activation-wrapper {
+    @include form-wrapper;
+    width:345px;
+
+    &__logo-container {
+        margin-bottom: 4.8rem;
+
+    }
+
+    &__go-to-email-btn-container {
+        margin: 4rem 0px;
+    }
+
+}
+
+.landing-img-container {
+    @include landing-image-wrapper;
+}

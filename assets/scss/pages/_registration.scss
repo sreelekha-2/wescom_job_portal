@@ -10,32 +10,16 @@
 
     }
 
-    &__job-seeker-logo {
-      @include job-seeker-module-logo
-    }
-
-    &__input-box {
-       @include input-box-wrapper
-    }
-
-    &__password-box {
-       @include password-box-wrapper
-    }
-
-    &__eye-icon {
-      @include eye-icon-wrapper
-    }
 }
 
-.job-seeker-title-desc+.form-container {
-    margin-top: 40px !important;
-    width: 416px;
-}
+// .job-seeker-title-desc+.form-container {
+//     margin-top: 40px !important;
+//     width: 416px;
+// }
 
 .landing-img-container {
     @include landing-image-wrapper;
 }
-
 
 
 .country-img {
@@ -50,7 +34,7 @@
 }
 
 .country-code {
-    background-color: #F5F7FB !important;
+    background-color: $secondary-color !important;
     border: 0 !important;
     font-size: 14px;
 }
@@ -63,7 +47,7 @@
 } */
 
 .mobile-number-line-container {
-    background-color: #F5F7FB;
+    background-color: $secondary-color;
 }
 
 .mobile-number-line {
@@ -79,8 +63,3 @@
 }
 
 
-/* forgot password */
-
-.reset-btn-container {
-    margin: 20px 0px;
-}

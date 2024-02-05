@@ -2,7 +2,8 @@
 // styles.scss
 
 @import "./vendors/vendors";
-@import "./base/_basedir";
 @import "./utilities/_utilities";
+@import "./base/_basedir";
 @import "./pages/_pagesdir";
-@import "./components/buttondir";
+@import "./components/_componentsdir";
+@import "./helpers/icons"

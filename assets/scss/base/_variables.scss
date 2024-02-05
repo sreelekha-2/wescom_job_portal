@@ -1,7 +1,33 @@
 // Font-Family
 // DMSans
-$primary-font-family: "DM Sans";
-$secondary-font-family:"Product Sans";
+
+// .product-sans-bold {
+//     font-family: $secondary-font-family;
+//     font-weight: bold;
+// }
+
+// .dm-sans-bold {
+//     font-family: $primary-font-family;
+//     font-weight: bold;
+// }
+
+// .dm-sans-regular {
+//     font-family: $primary-font-family;
+//     font-weight: normal;
+// }
+
+// .dm-sans-medium {
+//     font-family: $primary-font-family;
+//     font-weight: 500;
+// }
+
+$dm-sans-font-bold: "DM Sans Bold";
+$dm-sans-font-medium:"DM Sans Medium";
+$dm-sans-font-regular:"DM Sans Regular";
+$product-sans-font-bold:"Product Sans Bold";
+
+
+// $secondary-font-family:"Product Sans";
 
 $font-size-14:14px;
 $font-size-16:16px;
@@ -13,4 +39,26 @@ $font-size-32:32px;
 
 $primary-color:#3756F3;
 $secondary-color:#F5F7FB;
+
 $primary-white:#FFFFFF;
+$secondary-white:#f9fafc;
+
+$primary-black:#000000;
+$secondary-black:#10172a;
+$light-black:#334253;
+
+
+//icomoon
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-eye: \e900;
+$icon-eye-slash: \e904;
+$icon-down-arrow: \e908;
+$icon-right-arrow: \e902;
+$icon-top-arrow: \e903;
+$icon-left-arrow: \e901;
+
+
+
+

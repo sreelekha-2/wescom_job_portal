@@ -1,4 +1,6 @@
 
+
+
 h1,
 h2,
 p {
@@ -30,81 +32,63 @@ p {
 }
 
 
-.product-sans-bold {
-    font-family: $secondary-font-family;
-    font-weight: bold;
-}
-
-.dm-sans-bold {
-    font-family: $primary-font-family;
-    font-weight: bold;
-}
-
-.dm-sans-regular {
-    font-family: $primary-font-family;
-    font-weight: normal;
-}
-
-.dm-sans-medium {
-    font-family: $primary-font-family;
-    font-weight: 500;
-}
-
 .job-seeker-heading {
-    font-style: normal;
+    font-family: $product-sans-font-bold;
     line-height: normal;
+    font-size: 26px;
     margin-left: 10px;
+    color: $primary-black;
 }
 
 .job-seeker-title-heading {
-    font-style: normal;
+    font-family: $dm-sans-font-bold;
+    font-size: $font-size-26;
+    color: $secondary-black;
 }
 
 .job-seeker-title-desc {
-    // font-size: 16px;
-    font-style: normal;
-    margin-top: 9px;
+    font-family: $dm-sans-font-regular;
+    font-size: 16px;
+    color: $light-black;
+    margin-top: 0.9rem;
 }
 
 .input-box::placeholder {
-    font-family: "DM Sans";
-    font-weight: normal;
-    font-style: normal;
+    font-family: $dm-sans-font-regular;
     font-size: $font-size-14;
 }
 
 .form-container .form-field+.form-field {
-    margin-top: 27px;
+    margin-top: 2.7rem;
+}
+
+.form-label-text {
+    font-family: $dm-sans-font-regular;
+    font-size: $font-size-14;
+    color: $secondary-black;
+    margin-bottom: 1.2rem;
 }
 
 .password-field {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
-.forgot-password-link {
-    // font-size: 14px;
-    font-style: normal;
-}
-
-.form-text-link {
-    color: $primary-color;
-}
-
-.login-btn-container {
-    margin-top: 40px;
-    /* margin-bottom: 346px; */
-}
+// .login-btn-container {
+//     margin-top: 4rem;
+// }
 
 .link-text-decoration {
     text-decoration: none !important;
 }
 
 .landing-details-heading {
-    // font-size: 32px;
-    font-style: normal;
+    font-family: $dm-sans-font-bold;
+    font-size: $font-size-32;
+    color: $primary-white;
 }
 
 .landing-details-desc {
-    // font-size: 20px;
-    font-style: normal;
+    font-family: $dm-sans-font-medium;
+    font-size: $font-size-20;
+    color: $primary-white;
 }

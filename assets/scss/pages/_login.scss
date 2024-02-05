@@ -2,35 +2,39 @@
     @include main-container;
 }
 
+
 .login-form-container {
     @include form-wrapper;
 
     &__logo-container {
-        margin-bottom: 48px;
+        margin-bottom: 4.8rem;
 
     }
 
-    &__job-seeker-logo {
-      @include job-seeker-module-logo
+    &__forgot-password-link {
+        font-family: $dm-sans-font-medium;
+        font-size: $font-size-14;
+        color: $primary-color;
     }
 
-    &__input-box {
-       @include input-box-wrapper
+    &__login-btn-container {
+        margin-top: 4rem;
     }
 
-    &__password-box {
-       @include password-box-wrapper
+    &__login-form-footer-text {
+        font-family: $dm-sans-font-regular;
+        font-size: $font-size-18;
+        color: $primary-black;
     }
 
-    &__eye-icon {
-      @include eye-icon-wrapper
-    }
+    &__create-account-text-link {
+        font-family: $dm-sans-font-medium;
+        font-size: $font-size-18;
+        color: $primary-color;
+    } 
+    
 }
 
-.job-seeker-title-desc+.form-container {
-    margin-top: 40px !important;
-    width: 416px;
-}
 
 .landing-img-container {
     @include landing-image-wrapper;

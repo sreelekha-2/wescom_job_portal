@@ -11859,8 +11859,17 @@ textarea.form-control-lg {
   display: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+@media (max-height: 700px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Product Sans Regular";
   src: url("../fonts/product_sans/product_sans/ProductSans-Regular.eot");
   src: url("../fonts/product_sans/ProductSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/product_sans/ProductSans-Regular.woff2") format("woff2"), url("../fonts/product_sans/ProductSans-Regular.woff") format("woff"), url("../fonts/product_sans/ProductSans-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -11868,7 +11877,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Product Sans Bold";
   src: url("../fonts/product_sans/ProductSans-Bold.eot");
   src: url("../fonts/product_sans/ProductSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/product_sans/ProductSans-Bold.woff2") format("woff2"), url("../fonts/product_sans/ProductSans-Bold.woff") format("woff"), url("../fonts/product_sans/ProductSans-Bold.ttf") format("truetype");
   font-weight: bold;
@@ -11876,7 +11885,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Product Sans Bold-Italic";
   src: url("../fonts/product_sans/ProductSans-BoldItalic.eot");
   src: url("../fonts/product_sans/ProductSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/product_sans/ProductSans-BoldItalic.woff2") format("woff2"), url("../fonts/product_sans/ProductSans-BoldItalic.woff") format("woff"), url("../fonts/product_sans/ProductSans-BoldItalic.ttf") format("truetype");
   font-weight: bold;
@@ -11884,7 +11893,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
+  font-family: "Product Sans Italic";
   src: url("../fonts/product_sans/ProductSans-Italic.eot");
   src: url("../fonts/product_sans/ProductSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/product_sans/ProductSans-Italic.woff2") format("woff2"), url("../fonts/product_sans/ProductSans-Italic.woff") format("woff"), url("../fonts/product_sans/ProductSans-Italic.ttf") format("truetype");
   font-weight: normal;
@@ -11900,7 +11909,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Italic";
   src: url("../fonts/dm_sans/DMSans-Italic.eot");
   src: url("../fonts/dm_sans/DMSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-Italic.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-Italic.woff") format("woff"), url("../fonts/dm_sans/DMSans-Italic.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-Italic.svg#DMSans-Italic") format("svg");
   font-weight: normal;
@@ -11908,7 +11917,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Bold";
   src: url("../fonts/dm_sans/DMSans-Bold.eot");
   src: url("../fonts/dm_sans/DMSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-Bold.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-Bold.woff") format("woff"), url("../fonts/dm_sans/DMSans-Bold.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-Bold.svg#DMSans-Bold") format("svg");
   font-weight: bold;
@@ -11916,7 +11925,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Bold-Italic";
   src: url("../fonts/dm_sans/DMSans-BoldItalic.eot");
   src: url("../fonts/dm_sans/DMSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-BoldItalic.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-BoldItalic.woff") format("woff"), url("../fonts/dm_sans/DMSans-BoldItalic.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-BoldItalic.svg#DMSans-BoldItalic") format("svg");
   font-weight: bold;
@@ -11932,7 +11941,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Regular";
   src: url("../fonts/dm_sans/DMSans-Regular.eot");
   src: url("../fonts/dm_sans/DMSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-Regular.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-Regular.woff") format("woff"), url("../fonts/dm_sans/DMSans-Regular.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-Regular.svg#DMSans-Regular") format("svg");
   font-weight: normal;
@@ -11940,7 +11949,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Medium";
   src: url("../fonts/dm_sans/DMSans-Medium.eot");
   src: url("../fonts/dm_sans/DMSans-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-Medium.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-Medium.woff") format("woff"), url("../fonts/dm_sans/DMSans-Medium.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-Medium.svg#DMSans-Medium") format("svg");
   font-weight: 500;
@@ -11948,7 +11957,7 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "DM Sans";
+  font-family: "DM Sans Medium-Italic";
   src: url("../fonts/dm_sans/DMSans-MediumItalic.eot");
   src: url("../fonts/dm_sans/DMSans-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/dm_sans/DMSans-MediumItalic.woff2") format("woff2"), url("../fonts/dm_sans/DMSans-MediumItalic.woff") format("woff"), url("../fonts/dm_sans/DMSans-MediumItalic.ttf") format("truetype"), url("../fonts/dm_sans/DMSans-MediumItalic.svg#DMSans-MediumItalic") format("svg");
   font-weight: 500;
@@ -11986,67 +11995,45 @@ p {
   font-size: 32px;
 }
 
-.product-sans-bold {
-  font-family: "Product Sans";
-  font-weight: bold;
-}
-
-.dm-sans-bold {
-  font-family: "DM Sans";
-  font-weight: bold;
-}
-
-.dm-sans-regular {
-  font-family: "DM Sans";
-  font-weight: normal;
-}
-
-.dm-sans-medium {
-  font-family: "DM Sans";
-  font-weight: 500;
-}
-
 .job-seeker-heading {
-  font-style: normal;
+  font-family: "Product Sans Bold";
   line-height: normal;
+  font-size: 26px;
   margin-left: 10px;
+  color: #000000;
 }
 
 .job-seeker-title-heading {
-  font-style: normal;
+  font-family: "DM Sans Bold";
+  font-size: 26px;
+  color: #10172a;
 }
 
 .job-seeker-title-desc {
-  font-style: normal;
-  margin-top: 9px;
+  font-family: "DM Sans Regular";
+  font-size: 16px;
+  color: #334253;
+  margin-top: 0.9rem;
 }
 
 .input-box::placeholder {
-  font-family: "DM Sans";
-  font-weight: normal;
-  font-style: normal;
+  font-family: "DM Sans Regular";
   font-size: 14px;
 }
 
 .form-container .form-field + .form-field {
-  margin-top: 27px;
+  margin-top: 2.7rem;
+}
+
+.form-label-text {
+  font-family: "DM Sans Regular";
+  font-size: 14px;
+  color: #10172a;
+  margin-bottom: 1.2rem;
 }
 
 .password-field {
-  margin-bottom: 40px;
-}
-
-.forgot-password-link {
-  font-style: normal;
-}
-
-.form-text-link {
-  color: #3756F3;
-}
-
-.login-btn-container {
-  margin-top: 40px;
-  /* margin-bottom: 346px; */
+  margin-bottom: 4rem;
 }
 
 .link-text-decoration {
@@ -12054,11 +12041,15 @@ p {
 }
 
 .landing-details-heading {
-  font-style: normal;
+  font-family: "DM Sans Bold";
+  font-size: 32px;
+  color: #FFFFFF;
 }
 
 .landing-details-desc {
-  font-style: normal;
+  font-family: "DM Sans Medium";
+  font-size: 20px;
+  color: #FFFFFF;
 }
 
 .login-container {
@@ -12066,41 +12057,34 @@ p {
 }
 
 .login-form-container {
-  padding: 30px 0px 20px 0px;
-  width: 100%;
+  padding: 7rem 0px 3rem 0px;
+  width: 428px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .login-form-container__logo-container {
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
-.login-form-container__job-seeker-logo {
-  width: 40px;
-  height: 40px;
+.login-form-container__forgot-password-link {
+  font-family: "DM Sans Medium";
+  font-size: 14px;
+  color: #3756F3;
 }
-.login-form-container__input-box {
-  border-radius: 10px !important;
-  border: 0 !important;
-  background-color: #F5F7FB !important;
-  padding: 10px 20px !important;
-  /* width:400px !important; */
+.login-form-container__login-btn-container {
+  margin-top: 4rem;
 }
-.login-form-container__input-box:focus {
-  outline: none !important;
-  box-shadow: none !important;
+.login-form-container__login-form-footer-text {
+  font-family: "DM Sans Regular";
+  font-size: 18px;
+  color: #000000;
 }
-.login-form-container__password-box {
-  border-top-right-radius: 0px !important;
-}
-.login-form-container__eye-icon {
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-  border: 0 !important;
-  background-color: #F5F7FB !important;
-}
-
-.job-seeker-title-desc + .form-container {
-  margin-top: 40px !important;
-  width: 416px;
+.login-form-container__create-account-text-link {
+  font-family: "DM Sans Medium";
+  font-size: 18px;
+  color: #3756F3;
 }
 
 .landing-img-container {
@@ -12143,41 +12127,16 @@ p {
 }
 
 .register-form-container {
-  padding: 30px 0px 20px 0px;
-  width: 100%;
+  padding: 7rem 0px 3rem 0px;
+  width: 428px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .register-form-container__logo-container {
   margin-bottom: 48px;
-}
-.register-form-container__job-seeker-logo {
-  width: 40px;
-  height: 40px;
-}
-.register-form-container__input-box {
-  border-radius: 10px !important;
-  border: 0 !important;
-  background-color: #F5F7FB !important;
-  padding: 10px 20px !important;
-  /* width:400px !important; */
-}
-.register-form-container__input-box:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-.register-form-container__password-box {
-  border-top-right-radius: 0px !important;
-}
-.register-form-container__eye-icon {
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-  border: 0 !important;
-  background-color: #F5F7FB !important;
-}
-
-.job-seeker-title-desc + .form-container {
-  margin-top: 40px !important;
-  width: 416px;
 }
 
 .landing-img-container {
@@ -12254,20 +12213,301 @@ p {
   margin-bottom: 61px;
 }
 
-/* forgot password */
-.reset-btn-container {
-  margin: 20px 0px;
+.forgot-password-container {
+  min-height: 100vh;
+}
+
+.forgot-password-form-container {
+  padding: 7rem 0px 3rem 0px;
+  width: 428px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.forgot-password-form-container__logo-container {
+  margin-bottom: 4.8rem;
+}
+.forgot-password-form-container__reset-btn-container {
+  margin: 4rem 0px;
+}
+.forgot-password-form-container__back-to-login-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.forgot-password-form-container__back-to-login-text {
+  font-family: "DM Sans Medium";
+  font-size: 16px;
+  color: #10172a;
+}
+.forgot-password-form-container__back-to-login-arrow-link {
+  color: #10172a;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.landing-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../images/job-seeker-landing.jpg") no-repeat right;
+  background-size: cover;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 87, 255, 0.7) 0%, rgba(0, 87, 255, 0.7) 100%);
+  border-radius: 35px 0px 0px 35px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.landing-img-container__landing-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container__landing-details-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  /* height: 100%; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px;
+  color: #FFFFFF;
+}
+
+.set-new-password-container {
+  min-height: 100vh;
+}
+
+.set-new-password-form-container {
+  padding: 7rem 0px 3rem 0px;
+  width: 428px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.set-new-password-form-container__logo-container {
+  margin-bottom: 4.8rem;
+}
+.set-new-password-form-container__reset-btn-container {
+  margin: 4rem 0px;
+}
+.set-new-password-form-container__back-to-login-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.set-new-password-form-container__back-to-login-text {
+  font-family: "DM Sans Medium";
+  font-size: 16px;
+  color: #10172a;
+}
+.set-new-password-form-container__back-to-login-arrow-link {
+  color: #10172a;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.landing-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../images/job-seeker-landing.jpg") no-repeat right;
+  background-size: cover;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 87, 255, 0.7) 0%, rgba(0, 87, 255, 0.7) 100%);
+  border-radius: 35px 0px 0px 35px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.landing-img-container__landing-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container__landing-details-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  /* height: 100%; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px;
+  color: #FFFFFF;
+}
+
+.account-activation-container {
+  min-height: 100vh;
+}
+
+.account-activation-wrapper {
+  padding: 7rem 0px 3rem 0px;
+  width: 428px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 345px;
+}
+.account-activation-wrapper__logo-container {
+  margin-bottom: 4.8rem;
+}
+.account-activation-wrapper__go-to-email-btn-container {
+  margin: 4rem 0px;
+}
+
+.landing-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("../images/job-seeker-landing.jpg") no-repeat right;
+  background-size: cover;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, rgba(0, 87, 255, 0.7) 0%, rgba(0, 87, 255, 0.7) 100%);
+  border-radius: 35px 0px 0px 35px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.landing-img-container__landing-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px 0px 0px 35px;
+}
+.landing-img-container__landing-details-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  /* height: 100%; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0px 30px;
+  color: #FFFFFF;
 }
 
 .submit-btn {
+  font-family: "DM Sans Medium";
   background-color: #3756F3 !important;
   font-size: 16px !important;
-  font-weight: 500 !important;
-  font-style: normal;
   padding: 10px 30px !important;
-  color: #ffffff !important;
+  color: #f9fafc !important;
   border-radius: 10px !important;
   /* margin-top:40px; */
+}
+
+.job-seeker-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.input-box {
+  border-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding: 15px 0px 15px 18px !important;
+  font-size: 14px;
+}
+.input-box:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.eye-icon {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: 0 !important;
+  background-color: #F5F7FB !important;
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+.password-box {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.job-seeker-title-desc + .form-container {
+  margin-top: 40px !important;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon_fonts/icomoon.eot?qfrorg");
+  src: url("../fonts/icomoon_fonts/icomoon.eot?qfrorg#iefix") format("embedded-opentype"), url("../fonts/icomoon_fonts/icomoon.ttf?qfrorg") format("truetype"), url("../fonts/icomoon_fonts/icomoon.woff?qfrorg") format("woff"), url("../fonts/icomoon_fonts/icomoon.svg?qfrorg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye {
+  font-size: 14px;
+}
+.icon-eye:before {
+  content: "\e900";
+}
+
+.icon-eye-slash {
+  font-size: 14px;
+}
+.icon-eye-slash:before {
+  content: "\e904";
+}
+
+.icon-down-arrow:before {
+  content: "\e908";
+}
+
+.icon-right-arrow:before {
+  content: "\e902";
+}
+
+.icon-top-arrow:before {
+  content: "\e903";
+}
+
+.icon-left-arrow {
+  font-size: 14px;
+}
+.icon-left-arrow:before {
+  content: "\e901";
 }
 
 /*# sourceMappingURL=style.css.map */

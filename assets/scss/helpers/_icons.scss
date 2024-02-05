@@ -1,0 +1,72 @@
+// @import "variables";
+$icomoon-font-path: "../fonts/icomoon_fonts";
+
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qfrorg');
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?qfrorg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?qfrorg') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?qfrorg') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?qfrorg##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye {
+    font-size: 14px;
+
+    &:before {
+        content: unquote("\"#{ $icon-eye }\"");
+    }
+}
+
+.icon-eye-slash {
+    font-size: 14px;
+
+    &:before {
+        content: unquote("\"#{ $icon-eye-slash }\"");
+    }
+}
+
+.icon-down-arrow {
+    &:before {
+        content: unquote("\"#{ $icon-down-arrow }\"");
+    }
+}
+
+.icon-right-arrow {
+    &:before {
+        content: unquote("\"#{ $icon-right-arrow }\"");
+    }
+}
+
+.icon-top-arrow {
+    &:before {
+        content: unquote("\"#{ $icon-top-arrow }\"");
+    }
+}
+
+.icon-left-arrow {
+    font-size: 14px;
+
+    &:before {
+        content: unquote("\"#{ $icon-left-arrow }\"");
+    }
+}

@@ -6,23 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row login-container">
             <div class="col-6 p-0">
-                <div class="login-form-container d-flex flex-column align-items-center justify-content-between">
+                <div class="login-form-container">
                     <div>
                         <div class="d-flex align-items-center login-form-container__logo-container">
                             <img src="./assets/images/job-seeker-logo.jpg" alt="Job Seeker Logo"
-                                class="login-form-container__job-seeker-logo" />
-                            <h1 class="job-seeker-heading font-size-26 product-sans-bold">Job Seeker</h1>
+                                class="job-seeker-logo" />
+                            <h1 class="job-seeker-heading">Job Seeker</h1>
                         </div>
 
-                        <h2 class="job-seeker-title-heading font-size-26 dm-sans-bold">Login to your Account</h2>
-                        <p class="job-seeker-title-desc font-size-16 dm-sans-regular">Welcome back ! Login to the
+                        <h2 class="job-seeker-title-heading">Login to your Account</h2>
+                        <p class="job-seeker-title-desc">Welcome back ! Login to the
                             portal with
                             your
                             Credentials.
@@ -30,39 +29,35 @@
 
                         <form class="form-container">
                             <div class="form-field">
-                                <label for="email" class="form-label dm-sans-regular">Email ID</label>
-                                <input type="email" class="form-control login-form-container__input-box" id="email"
+                                <label for="email" class="form-label form-label-text">Email ID</label>
+                                <input type="email" class="form-control input-box" id="email"
                                     placeholder="Enter your email" aria-describedby="emailHelp" required>
                             </div>
                             <div class="form-field">
-                                <label for="password" class="form-label dm-sans-regular">Password</label>
+                                <label for="password" class="form-label form-label-text">Password</label>
                                 <div class="input-group password-field">
-                                    <input type="password"
-                                        class="form-control login-form-container__input-box login-form-container__password-box"
-                                        id="password" placeholder="Enter your password" required>
-                                    <span class="input-group-text login-form-container__eye-icon"><i
-                                            class="fa-solid fa-eye-slash" id="togglePassword"></i></span>
+                                    <input type="password" class="form-control input-box password-box" id="password"
+                                        placeholder="Enter your password" required>
+                                    <span class="input-group-text eye-icon"><i class="icon-eye-slash"
+                                            id="togglePassword"></i></span>
                                 </div>
                             </div>
 
                             <div class="text-end forgot-password-link-container">
-                                <a href="#"
-                                    class="forgot-password-link form-text-link dm-sans-medium font-size-14">Forgot
+                                <a href="#" class="login-form-container__forgot-password-link">Forgot
                                     Password
                                     ?</a>
                             </div>
-                            <div class="text-end login-btn-container">
-                                <button type="submit" class="btn submit-btn dm-sans-medium">Login</button>
+                            <div class="text-end login-form-container__login-btn-container">
+                                <button type="submit" class="btn submit-btn">Login</button>
                             </div>
                         </form>
                     </div>
 
                     <div class="create-account-container text-center">
-                        <p class="dm-sans-regular font-size-18">Don't have an account ? <a href="#"
-                                class="form-text-link">Create an account</a></p>
-                        
+                        <p class="login-form-container__login-form-footer-text">Don't have an account ? <a href="#"
+                                class="login-form-container__create-account-text-link">Create an account</a></p>
                     </div>
-
 
                 </div>
             </div>
@@ -72,9 +67,9 @@
                     <!-- <img src="./assets/images/job-seeker-landing.jpg" alt="Landing Image"
                         class="landing-img-container__landing-img"> -->
                     <div class="landing-img-container__landing-details-container">
-                        <h2 class="dm-sans-bold landing-details-heading font-size-32">Let’s find you your dream job
+                        <h2 class="landing-details-heading">Let’s find you your dream job
                         </h2>
-                        <p class="dm-sans-medium landing-details-desc font-size-20">Search millions of jobs on
+                        <p class="landing-details-desc">Search millions of jobs on
                             JobSeeker, the
                             largest
                             community of jobs
